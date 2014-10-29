@@ -10,14 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //Declare Variables for UI Elements
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
     @IBOutlet weak var mailButton: UIButton!
-    @IBOutlet weak var nameLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
