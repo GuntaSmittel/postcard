@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF5059E21A008BC60005B42D /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF5059E11A008BC60005B42D /* SagradaFamilia.jpeg */; };
 		DF55FCFD19E8CD69001DCEAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55FCFC19E8CD69001DCEAF /* AppDelegate.swift */; };
 		DF55FCFF19E8CD69001DCEAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55FCFE19E8CD69001DCEAF /* ViewController.swift */; };
 		DF55FD0219E8CD69001DCEAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF55FD0019E8CD69001DCEAF /* Main.storyboard */; };
 		DF55FD0419E8CD69001DCEAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF55FD0319E8CD69001DCEAF /* Images.xcassets */; };
 		DF55FD0719E8CD69001DCEAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF55FD0519E8CD69001DCEAF /* LaunchScreen.xib */; };
 		DF55FD1319E8CD69001DCEAF /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55FD1219E8CD69001DCEAF /* PostcardTests.swift */; };
-		DF7B570C19E8F8B000B472D5 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B570B19E8F8B000B472D5 /* SagradaFamilia.jpeg */; };
 		DF7B570E19F4981800B472D5 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B570D19F4981800B472D5 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF5059E11A008BC60005B42D /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 		DF55FCF719E8CD69001DCEAF /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF55FCFB19E8CD69001DCEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF55FCFC19E8CD69001DCEAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		DF55FD0C19E8CD69001DCEAF /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF55FD1119E8CD69001DCEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF55FD1219E8CD69001DCEAF /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
-		DF7B570B19E8F8B000B472D5 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SagradaFamilia.jpeg; path = PostcardTests/SagradaFamilia.jpeg; sourceTree = SOURCE_ROOT; };
 		DF7B570D19F4981800B472D5 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +96,7 @@
 			children = (
 				DF55FCFB19E8CD69001DCEAF /* Info.plist */,
 				DF7B570D19F4981800B472D5 /* AlbertEinsteinStamp.jpg */,
-				DF7B570B19E8F8B000B472D5 /* SagradaFamilia.jpeg */,
+				DF5059E11A008BC60005B42D /* SagradaFamilia.jpeg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,6 +202,7 @@
 				DF55FD0219E8CD69001DCEAF /* Main.storyboard in Resources */,
 				DF55FD0719E8CD69001DCEAF /* LaunchScreen.xib in Resources */,
 				DF55FD0419E8CD69001DCEAF /* Images.xcassets in Resources */,
+				DF5059E21A008BC60005B42D /* SagradaFamilia.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7B570C19E8F8B000B472D5 /* SagradaFamilia.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

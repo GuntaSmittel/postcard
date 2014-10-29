@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
     @IBOutlet weak var mailButton: UIButton!
+    @IBOutlet weak var nameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,15 +29,28 @@ class ViewController: UIViewController {
     
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         //code will evaluate when we press the button
+        
+        
+        //unhide and show text in the labels
         messageLabel.hidden=false
+        nameLabel.hidden=false
+        
+        //transfer the text fields values to the labels
         messageLabel.text=enterMessageTextField.text
+        nameLabel.text=enterNameTextField.text
+        
+        
+        //clear the textfields
         enterMessageTextField.text=""
+        enterNameTextField.text=""
         
         //uses the class function UIColor automatically instances object
         messageLabel.textColor=UIColor.redColor()
+        nameLabel.textColor=UIColor.blueColor()
         
         //Tells IOS that the TextField is no longer waiting for a response which disables the keyboard
         enterMessageTextField.resignFirstResponder()
+        enterNameTextField.resignFirstResponder()
         
         // Sent the title and leave the focus unselected
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
